@@ -13,8 +13,6 @@
 
   p {
     line-height: 1.8rem;
-
-    
   }
   
   &::before {
@@ -29,21 +27,5 @@
     align-items: center;
     justify-content: center;
     
-  }
-}
-
-.contact-info {
-  display: flex;
-  align-items: center;
-  padding: 1.5rem 0;
-  font-size: 13px;
-
-  p {
-    margin-right: 20px;
-    
-    i {
-      color: #000;
-      margin-right: 10px;
-    }
   }
 }

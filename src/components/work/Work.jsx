@@ -4,11 +4,12 @@ const Work = () => (
   <section id="work" className="section work">
     <h4 className="section__title">WORK EXPERIENCE</h4>
     <div className="section__content work__item">
-      <a href="https://github.com/Lidemy/mentor-program-3rd" className="title">LIDEMY 第三期的程式導師計畫</a>
+      <a className="title" href="https://github.com/Lidemy/mentor-program-3rd" rel="noopener noreferrer">LIDEMY 第三期的程式導師計畫</a>
       <p className="summary">
         畢業生 <br />
         Mar, 2019 – Oct, 2019<br />
-        參加由 Lidemy 鋰學院創辦人 Huli 所開設的 <a href="https://github.com/Lidemy/mentor-program-3rd">【 程式導師計畫第三期 】</a>，過著與 <a href="https://github.com/Lidemy/homeworks-3rd/issues?utf8=✓&q=yakim" target="_blank"> 24 週作業 </a> 為伍的日子，期間加強了許多以往模糊不清的觀念，並在 Blog 持續發表技術筆記。
+        參加由 Lidemy 鋰學院創辦人 Huli 所開設的 <a href="https://github.com/Lidemy/mentor-program-3rd">【 程式導師計畫第三期 】</a>，過著與
+        <a href="https://github.com/Lidemy/homeworks-3rd/issues?utf8=✓&q=yakim" rel="noopener noreferrer" target="_blank"> 24 週作業 </a> 為伍的日子，期間加強了許多以往模糊不清的觀念，並在 Blog 持續發表技術筆記。
       </p>
       <ul className="info">
         <li>前端框架 ： React ( with Redux )</li>
@@ -20,7 +21,7 @@ const Work = () => (
     </div>
 
     <div className="section__content work__item">
-      <a href="https://www.ettoday.net/" target="_blank" className="title">ETTODAY 東森新聞雲</a>
+      <a className="title" href="https://www.ettoday.net/" target="_blank" rel="noopener noreferrer">ETTODAY 東森新聞雲</a>
       <p className="summary">
         網頁設計師<br />
         Jul, 2014 – Sep, 2017<br />
