@@ -1,0 +1,49 @@
+.theme--dark {
+  &.wrapper {
+    background: #333;
+  }
+  
+  p {
+    strong {
+      color: #fff;
+    }
+  
+    a {
+      color: #ccc;
+    }
+  }
+
+
+  .contact-info p {
+    i {
+      color: #fff;
+    }
+  }
+  
+  .section__content {
+    .title {
+      color: #fff;
+    }
+  
+    .info {
+      li {
+        color: #999;
+      }
+    }
+  }
+
+  .ant-anchor-wrapper {
+    background: none;
+    transition: none;
+  
+    .ant-anchor-link-title {
+      color: #aaa;
+  
+      &.ant-anchor-link-title-active {
+        color: #fff;
+      }
+    }
+  }
+}
+
+

@@ -4,7 +4,7 @@ const { Link } = Anchor;
 
 const AnchorMenu = () => (
 
-  <Anchor offsetTop={40} targetOffset={60}>
+  <Anchor offsetTop={50} targetOffset={60}>
     <Link href="#project" title="Project" />
     <Link href="#work" title="Work" />
     <Link href="#education" title="Education" />

@@ -1,15 +1,25 @@
 body {
-  background: #fff;
 }
 
 .wrapper {
+}
+
+.ant-switch {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background-color: #999;
+  z-index:30;
+
+  &-checked {
+    background-color: #333;
+  }
 }
 
 .container {
   max-width: $width-s;
   margin: 0 auto;
   padding: 30px;
-  background: #fff;
   min-height: calc(100vh - 290px);
 }
 
