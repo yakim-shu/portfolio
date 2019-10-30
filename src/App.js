@@ -7,7 +7,7 @@ import Education from './components/education/Education';
 import Footer from './components/footer/Footer';
 import Anchor from './components/anchor/Anchor';
 import Contact from './components/contact/Contact';
-import { Switch, Icon } from 'antd';
+import { Switch } from 'antd';
 
 import 'antd/dist/antd.css';
 import './scss/index.scss';
@@ -30,6 +30,7 @@ class App extends Component {
 
   render() {
     const { isDarkTheme } = this.state;
+    document.body.style.backgroundColor = isDarkTheme ? '#333' : '#fff';
     return (
       <div className={`wrapper ${isDarkTheme ? 'theme--dark' : ''}`}>
         <main className="container">
