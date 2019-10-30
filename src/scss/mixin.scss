@@ -29,7 +29,7 @@
 }
 
 /* ------- media query ------- */
-$breakpoints: ("phone": 375px, "phone-l": 480px, "tablet-s": 640px, "tablet": 768px, "desktop": 1024px, "desktop-l": 1200px);
+$breakpoints: ("phone": 375px, "phone-l": 480px, "tablet-s": 640px, "tablet": 768px, "desktop": 960px, "desktop-l": 1200px);
 
 @mixin mq($width) {
     @if map_has_key($breakpoints, $width) {

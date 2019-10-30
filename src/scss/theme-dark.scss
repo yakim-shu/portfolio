@@ -31,6 +31,9 @@
   .ant-anchor-wrapper {
     background: none;
     transition: none;
+    .ant-anchor-ink-ball {
+      background: #333;
+    }
   
     .ant-anchor-link-title {
       color: #aaa;

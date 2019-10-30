@@ -31,8 +31,6 @@ const Blog = ({ visible, showModal, hideModal }) => (
       visible={visible}
       onCancel={hideModal}
     >
-      <a href="https://yakim-shu.github.io/SPA-Blog/" rel="noopener noreferrer" target="_blank">Demo</a>
-      <a href="https://github.com/yakim-shu/blog-api" rel="noopener noreferrer" target="_blank">Github Repo</a>
       <ul>
         <li>
           <h4>首頁</h4>

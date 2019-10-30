@@ -1,7 +1,7 @@
 .contact-info {
   display: flex;
   align-items: center;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   font-size: 13px;
 
   p {
@@ -10,6 +10,29 @@
     i {
       color: #000;
       margin-right: 10px;
+    }
+  }
+}
+
+/* ----- RWD ---- */
+@include mq('tablet') {
+  .contact-info {
+    flex-wrap: wrap;
+
+    p {
+      flex-basis: 50%;
+      margin-right: 0;
+    }
+  }
+}
+
+@include mq('phone-l') {
+  .contact-info {
+    flex-wrap: wrap;
+
+    p {
+      flex-basis: 100%;
+      text-align: center;
     }
   }
 }

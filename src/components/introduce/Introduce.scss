@@ -29,3 +29,24 @@
     
   }
 }
+
+
+
+/* ----- RWD ---- */
+@include mq('desktop') {
+  .introduce  {
+    &::before {
+      top: -30px;
+      left: auto;
+      right: -30px;
+    }
+  }
+}
+
+@include mq('phone-l') {
+  .introduce  {
+    &::before {
+      display: none;
+    }
+  }
+}

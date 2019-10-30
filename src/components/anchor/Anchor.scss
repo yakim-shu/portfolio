@@ -20,10 +20,6 @@
   }
 }
 .ant-anchor-ink {
-  // display: none;
-  &::before {
-  }
-
   .ant-anchor-ink-ball {
     border-color: $main-color;
   }
@@ -32,5 +28,12 @@
 
 /* fixed */
 .ant-affix {
-  right: calc((50% - 700px) - 300px);
+  left: calc(50% + 380px);
+}
+
+/* ----- RWD ---- */
+@include mq('desktop') {
+  .ant-anchor-wrapper {
+    display: none;
+  }
 }

@@ -37,7 +37,8 @@ p {
 
 code {
   font-size: 13px;
-  color: #dd7878;
+  // color: #dd7878;
+  color: lighten($main-color, 5%);
 }
 
 
