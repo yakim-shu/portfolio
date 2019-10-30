@@ -1,0 +1,49 @@
+.name-title {
+  @extend %weight-font-style;
+  color: $main-color;
+  font-size: 28px;
+  margin-bottom: 2rem;
+}
+
+.introduce {
+  border: 2px solid $main-color;
+  padding: 20px;
+  font-size: 15px;
+  @include position(relative);
+
+  p {
+    line-height: 1.8rem;
+
+    
+  }
+  
+  &::before {
+    @extend %weight-font-style;
+    @include pseudo(flex,'HI');
+    @include size(60px);
+    border-radius: 60px;
+    @include position(absolute, $top: 20px, $left: -100px);
+    background: $main-color;
+    font-size: 24px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    
+  }
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 0;
+  font-size: 13px;
+
+  p {
+    margin-right: 20px;
+    
+    i {
+      color: #000;
+      margin-right: 10px;
+    }
+  }
+}

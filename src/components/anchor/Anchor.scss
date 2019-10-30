@@ -1,0 +1,36 @@
+.ant-anchor-wrapper {
+  opacity: 0;
+  height: 0;
+  transition: all .5s;
+
+  .ant-affix & {
+    opacity: 1;
+    height: auto;
+  }
+}
+
+
+/* link */
+.ant-anchor-link-title {
+  font-size: 16px;
+  color: #666;
+
+  &.ant-anchor-link-title-active {
+    color:$main-color;
+  }
+}
+.ant-anchor-ink {
+  // display: none;
+  &::before {
+  }
+
+  .ant-anchor-ink-ball {
+    border-color: $main-color;
+  }
+}
+
+
+/* fixed */
+.ant-affix {
+  right: calc((50% - 700px) - 300px);
+}

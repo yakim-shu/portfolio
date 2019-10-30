@@ -1,0 +1,44 @@
+.project {
+  .title {
+    &::before {
+      @extend %weight-font-style;
+      @include pseudo(inline-block,'#');
+      @include position(relative, $top: -2px, $left: -10px);
+      color: $main-color;
+      font-size: 22px;
+    }
+  }
+}
+
+.project__content {
+  cursor:pointer;
+  padding-left: 10px;
+
+  &:hover {
+    @extend %transition;
+    transform: translateX(-10px);
+    border-left: 1px dashed $main-color;
+  }
+}
+
+.ant-modal {
+  max-width: calc(100% - 20px);
+  a {
+    margin-right: 10px;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li {
+      width: 48%;
+      margin-bottom: 1rem;
+    }
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}

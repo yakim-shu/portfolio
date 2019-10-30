@@ -1,0 +1,10 @@
+.work {
+  .info {
+    @include position(relative, $left: 20px);
+    list-style: initial;
+    
+    li {
+      line-height: 1.4rem;
+    }
+  }
+}
