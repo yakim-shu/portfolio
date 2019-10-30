@@ -16,7 +16,7 @@ const ContactList = () => (
     </p>
     <p>
       <i className="far fa-file-alt fa-lg"></i>
-      <a href="">resume (pdf)</a>
+      <a href="./Yakim_Resume.pdf" download="Yakim_Resume">resume (pdf)</a>
     </p>
   </div>
 );

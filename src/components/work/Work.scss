@@ -1,6 +1,7 @@
 .work {
   .info {
     @include position(relative, $left: 20px);
+    padding-right: 20px;
     list-style: initial;
     
     li {

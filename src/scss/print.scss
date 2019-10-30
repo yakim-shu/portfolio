@@ -1,0 +1,49 @@
+@media print{
+  body {
+    -webkit-print-color-adjust: exact;
+  }
+  .ant-switch {
+    display: none;
+  }
+
+  body {
+    padding:0;
+  }
+  .wrapper {
+    padding:0;
+  }
+
+  .section {
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+
+    &__title {
+      margin-bottom: 1rem;
+    }
+    
+    .section__content {
+      margin-bottom: 1rem;
+
+      .summary {
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    .info {
+      h5 {
+        display: none;
+      }
+    }
+  }
+
+  #contact {
+    display: none;
+  }
+  .print--hide {
+    display: none;
+  }
+
+  .copyright {
+    margin-top: 20px;
+  }
+}

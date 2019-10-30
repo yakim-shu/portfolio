@@ -10,7 +10,7 @@ const Blog = ({ visible, showModal, hideModal }) => (
     </h3>
     <div className="project__content" type="primary" onClick={() => showModal('visible1')}>
       <p className="summary">用 React 打造的 SPA Blog，裡面的文章都是自己學習 React 的筆記。</p>
-      <ul className="info">
+      <ul className="info print--hide">
         <h5>功能</h5>
         <li>文章分類、標題搜尋</li>
         <li>支持 <code>markdown</code> 格式發布文章，並支援 code highlight</li>
@@ -62,7 +62,7 @@ const Comment = ({ visible, showModal, hideModal }) => (
     </h3>
     <div className="project__content" type="primary" onClick={() => showModal('visible2')}>
       <p className="summary">第一個 PHP 練習作品，藉由此作業更了解前、後端運作。</p>
-      <ul className="info">
+      <ul className="info print--hide">
         <h5>功能</h5>
         <li>支持多層子留言及按讚功能、登入狀態會標示出原 po 的留言</li>
         <li>完成操作時會顯示回饋訊息、留言以 Ajax 方式操作</li>
