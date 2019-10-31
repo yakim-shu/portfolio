@@ -159,8 +159,8 @@ class Project extends Component {
       <section id="project" className="section project">
         <h4 className="section__title">PROJECTS</h4>
         <Blog visible={visible1} showModal={this.showModal} hideModal={this.hideModal} />
-        <Comment visible={visible2} showModal={this.showModal} hideModal={this.hideModal} />
         <Lazy visible={visible3} showModal={this.showModal} hideModal={this.hideModal} />
+        <Comment visible={visible2} showModal={this.showModal} hideModal={this.hideModal} />
       </section>
     )
   }
