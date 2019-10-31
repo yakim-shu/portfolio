@@ -7,6 +7,7 @@ import Education from './components/education/Education';
 import Footer from './components/footer/Footer';
 import Anchor from './components/anchor/Anchor';
 import Contact from './components/contact/Contact';
+import About from './components/about/About';
 import { Switch } from 'antd';
 
 import 'antd/dist/antd.css';
@@ -22,10 +23,6 @@ class App extends Component {
     this.setState({
       isDarkTheme: !this.state.isDarkTheme,
     })
-  }
-
-  componentDidUpdate() {
-    console.log(this.state);
   }
 
   render() {
@@ -44,6 +41,7 @@ class App extends Component {
           <Project />
           <Work />
           <Education />
+          <About />
           <Contact />
           <Footer />
         </main>

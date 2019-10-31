@@ -19,7 +19,7 @@ const Blog = ({ visible, showModal, hideModal }) => (
       <ul className="info">
         <h5>技術</h5>
         <li><code>react-router</code> 處理前端路由</li>
-        <li>搭配 <code>Redux</code> 管理狀態，解決 props drilling 的問題</li>
+        <li>搭配 <code>Redux</code> 管理狀態</li>
         <li>使用 <code>redux-promise</code> 處理非同步操作</li>
         <li>文章 API 以 <code>JSON Server</code> 部署到 Digital Ocean、並使用 <code>Nginx</code> 作代理</li>
       </ul>

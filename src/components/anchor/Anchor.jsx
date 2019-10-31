@@ -8,6 +8,7 @@ const AnchorMenu = () => (
     <Link href="#project" title="Project" />
     <Link href="#work" title="Work" />
     <Link href="#education" title="Education" />
+    <Link href="#about" title="About" />
     <Link href="#contact" title="Contact" />
   </Anchor >
 );
